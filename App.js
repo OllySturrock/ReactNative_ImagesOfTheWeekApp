@@ -38,7 +38,6 @@ export default class App extends React.Component {
       <View style={styles.base_container}>
         <Text style={{textAlign: 'center'}}>Images of the Week!</Text>
         <FlatList
-          // data=["1": "url-1", "2": "url-2", "3": "url-3"}
           data={this.state.imageData}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item}) =>
