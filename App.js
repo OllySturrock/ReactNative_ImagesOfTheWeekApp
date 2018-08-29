@@ -61,11 +61,13 @@ const styles = StyleSheet.create({
   base_container: {
     flex: 1,
     backgroundColor: '#ffffff',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    paddingTop: 25
   },
   ImageContainer : {
         flex: 1,
         justifyContent: 'space-between',
-        alignSelf: 'stretch'
+        alignSelf: 'stretch',
+    paddingTop: 5
   }
 })
